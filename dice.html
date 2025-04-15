@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body {
+        text-align: center;
+        font-family: Helvetica, sans-serif;
+        background-image: url(https://img.recraft.ai/GcQElNuLirFuOuroW0FBthoI9e25Gioh81pIj5wpRg8/rs:fit:1536:1024:0/q:95/g:no/plain/abs://prod/images/9b6e8fa0-bca9-4f08-98c4-6fd362ab7fb2@jpg);
+
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+      }
+
+      #dice {
+        font-size: 350px;
+        opacity: 0.7;
+        transition: 0.8s;
+        text-shadow: 7px 7px 7px black;
+        margin-top: 125px;
+      }
+
+      #dice:hover {
+        cursor: pointer;
+        opacity: 1;
+        text-shadow: 7px 7px 7px blueviolet;
+      }
+    </style>
+  </head>
+  <body>
+    <div>Click on the Dice..</div>
+    <div id="dice" onclick="stopstart()"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
