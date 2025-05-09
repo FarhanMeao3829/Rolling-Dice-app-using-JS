@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body {
+        text-align: center;
+        font-family: Helvetica, sans-serif;
+        background-image: url(https://plus.unsplash.com/premium_photo-1681426322370-c99a29f6f0cd?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bmVvbiUyMGxpZ2h0fGVufDB8fDB8fHww);
+
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        font-family: cursive
+      }
+
+      #dice {
+        font-size: 350px;
+        opacity: 0.7;
+        transition: 0.8s;
+        text-shadow: 7px 7px 7px black;
+        margin-top: 125px;
+      }
+
+      #dice:hover {
+        cursor: pointer;
+        opacity: 1;
+        text-shadow: 7px 7px 7px blueviolet;
+      }
+    </style>
+  </head>
+  <body>
+    <div>Click on the Dice..</div>
+    <div id="dice" onclick="stopstart()"></div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
